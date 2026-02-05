@@ -2,6 +2,28 @@
 HYPOTHESIS H1.2: Volatility Clustering
 ======================================
 
+ASSUMPTION: XAUUSD shows volatility clustering (ARCH effects)
+         → High volatility is followed by high volatility
+
+THEORETICAL BASIS:
+- Gold reacts to macro events (Fed, Geopolitics) with volatility shocks
+- Risk-On/Risk-Off regimes with different volatility
+- Important for: Position Sizing, Stop-Loss, Regime Filtering
+
+TEST METHODOLOGY:
+1. ARCH-LM Test (Lagrange Multiplier Test)
+2. Autocorrelation of squared returns
+3. Volatility Regime Detection (High/Low Vol Clustering)
+
+ACCEPTANCE CRITERIA:
+✓ ARCH-LM Test p-value < 0.05: Significant volatility clustering
+✓ ACF(returns²) Lag-1 > 0.10: Strong persistence
+✓ Volatility regimes with >20% difference: Regime filter is useful
+
+IMPLICATION:
+- If accepted: Develop GARCH-based volatility filters
+- Dynamic Position Sizing based on volatility regime
+
 Copyright (c) 2026 thequantdev
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
