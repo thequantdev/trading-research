@@ -11,7 +11,7 @@ Code that tests specific hypotheses. Not a system, not advice.
 ### ✅ H1.2: Volatility Clustering
 **Question:** Does high volatility follow high volatility in Gold?  
 **Result:** Yes. Strong ARCH effects. Regime-based sizing works.  
-[Script](hypotheses/H1_2_volatility_clustering.py) | 
+[Script](hypotheses/H1_2_volatility_clustering.py) | [Post](https://www.reddit.com/r/Forex/comments/1qvtuqr/i_kept_getting_stopped_out_then_i_ran_the_numbers/)
 
 ### ⚠️ H2.1: ATR Fast-Slow Ratio
 **Question:** Does relative volatility beat absolute ATR?  
