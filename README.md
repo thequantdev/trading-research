@@ -23,6 +23,11 @@ Code that tests specific hypotheses. Not a system, not advice.
 **Result:** Testing live. Backtest Sharpe: 0.68  
 [Script](hypotheses/H3_1_er_regime.py) | [Pine Script](indicators/H3_1_er_regime.pine) | [Post](https://www.reddit.com/r/algotrading/comments/1r7c2p3/kept_getting_chopped_up_in_us500_then_i_checked/) | [Video](https://youtube.com/shorts/zW1g_VzLznM?feature=share)
 
+🧪 H4.1: Proper Mean Reversion Entry
+Question: Was I measuring MR wrong? (No ffill, actual trade entries/exits)
+Result: Walk-forward tested. 10/11 folds positive. OOS Sharpe: 1.995
+[Script](hypotheses/H4_1_er_regime.py) 
+
 ## Quick start
 ```bash
 pip install pandas numpy matplotlib scipy statsmodels
