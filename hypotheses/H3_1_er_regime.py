@@ -1,9 +1,9 @@
-# ============================================================================
-# REDDIT PLOT v3 — US500 REGIME DETECTION
-# Fixes v3: "50% breakeven" direkt auf die Linie (kein Legend-Overlap),
-#            Annotation Panel③ bleibt wie ist (unter Rand = OK)
-# Format: Landscape 18×6.5" (Reddit-optimiert)
-# ============================================================================
+"""
+H3.1: Why momentum keeps failing (68K bars of US500)
+
+Claim: Markets chop 63% of time. Momentum = 43% win rate. Mean reversion = 68%.
+Test it yourself: Update DATA_PATH below, run script.
+"""
 
 import pandas as pd
 import numpy as np
@@ -311,9 +311,8 @@ fig.text(0.97, 0.005,
 # SAVE
 # ============================================================================
 
-plt.savefig('reddit_plot_us500_v3.png',
-            dpi=150, bbox_inches='tight',
-            facecolor=C['bg'], edgecolor='none')
+plt.savefig('h3_1_results.png', dpi=150, bbox_inches='tight', facecolor='#0d1117')
+print("Saved: h3_1_results.png")
 plt.show()
 
 print("\n" + "="*70)
