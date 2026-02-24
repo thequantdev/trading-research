@@ -21,7 +21,7 @@ Code that tests specific hypotheses. Not a system, not advice.
 ### 🧪 H3.1: Efficiency Ratio Regime Detection
 **Question:** Can we detect choppy vs trending markets?  
 **Result:** Testing live. Backtest Sharpe: 0.68  
-[Script](hypotheses/H3_1_er_regime.py) | [Pine Script](indicators/H3_1_er_regime.pine) | [Post](https://www.reddit.com/r/algotrading/comments/1r7c2p3/kept_getting_chopped_up_in_us500_then_i_checked/)
+[Script](hypotheses/H3_1_er_regime.py) | [Pine Script](indicators/H3_1_er_regime.pine) | [Post](https://www.reddit.com/r/algotrading/comments/1r7c2p3/kept_getting_chopped_up_in_us500_then_i_checked/) | [Video](https://youtube.com/shorts/zW1g_VzLznM?feature=share)
 
 ## Quick start
 ```bash
