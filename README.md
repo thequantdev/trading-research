@@ -26,7 +26,7 @@ Code that tests specific hypotheses. Not a system, not advice.
 🧪 H4.1: Proper Mean Reversion Entry
 Question: Was I measuring MR wrong? (No ffill, actual trade entries/exits)
 Result: Walk-forward tested. 10/11 folds positive. OOS Sharpe: 1.995
-[Script](hypotheses/H4_1_er_regime.py) 
+[Script](hypotheses/H4_1_better_mean_reversion.py) 
 
 ## Quick start
 ```bash
